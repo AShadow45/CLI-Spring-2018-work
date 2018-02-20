@@ -1,0 +1,38 @@
+Notes 2/14/2018
+
+Hierarchy:
+id>class>elements
+
+id selector overrides p element b/c it is more specific
+
+#id
+
+.class
+
+add comma to add style to multiple
+
+CSS Properties:
+
+background
+border
+outline
+margin
+padding
+width 
+height
+color
+text
+fonts
+position 
+display
+
+Box Model
+
+|margin{border(padding[content])}|
+
+Position Property
+static
+relative
+fixed 
+absolute
+
