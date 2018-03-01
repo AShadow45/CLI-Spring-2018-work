@@ -1,3 +1,65 @@
 body {
-	background-color: 
+	margin: 0;
+	padding: 5em;
+	width: 100%;
+	height: 100%;
+	background-color: #00fff6;
 }
+
+#Face {
+	background-color: green;
+	width:600px;
+	height: 500px;
+	position: fixed;
+	-moz-border-radius: 500px,500px,500px,500px;
+	border-radius: 0,500px,500px,0;
+
+}
+
+.Hair {
+	position:absolute; 
+	width:600px;
+	height:200px;
+	background-color: brown;
+	background:linear-gradient(orange,red)
+
+}
+
+.Eye {
+	position:absolute;
+	width:50px;
+	height:150px;
+	padding: black, 2em;
+    border-radius: 25px 25px 0px 0px;
+	background:linear-gradient(purple,black);
+
+}
+
+.LeftEye {
+	top: 50px;
+	left: 150px;
+}
+
+.RightEye {
+	top: 50px;
+	right: 150px;
+}
+
+.Nose {
+	position:absolute; 
+	width:30px;
+	height:60px;
+	top: 250px;
+	left: 300px;
+	background-color: red;
+}
+
+.Mouth {
+	position:absolute; 
+	top: 400px;
+	left:150px;
+	width:300px;
+	height:30px;
+	background-color: black;
+}
+
